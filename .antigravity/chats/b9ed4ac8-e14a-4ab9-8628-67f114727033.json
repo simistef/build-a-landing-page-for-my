@@ -16,6 +16,18 @@
       "created_at": "2026-10-18T01:00:56.132Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "af27dfe5-8502-4625-826b-46e2d5999002",
+      "role": "agent",
+      "content": "**Not directly if the database is running on your personal computer**, because this workspace runs in a remote cloud container and cannot reach your computer’s `localhost` or private local network.\n\nHere are the ways you can connect a database:\n\n---\n\n### 1. Cloud Database (Recommended)\nHost your database in the cloud and connect using a connection string in an `.env` file. Many services offer free tiers:\n- **PostgreSQL**: [Neon](https://neon.tech), [Supabase](https://supabase.com)\n- **MySQL**: [PlanetScale](https://planetscale.com), [Railway](https://railway.app)\n- **MongoDB**: [MongoDB Atlas](https://www.mongodb.com/atlas)\n\n### 2. Tunnel to your personal machine\nIf you want to use the database already running on your computer without migrating to the cloud:\n1. Run a tunnel on your machine (e.g. with **ngrok**):\n   ```bash\n   ngrok tcp 5432\n   ```\n   *(replace `5432` with your database port)*\n2. Provide the generated forwarding address and port here in your connection string.\n\n### 3. File-Based Local Database (SQLite)\nIf you want an embedded database that runs directly inside this workspace without external services, you can use **SQLite** (with Prisma, Drizzle, or raw SQL).\n\n---\n\nWhat database engine (Postgres, MySQL, MongoDB, SQLite) are you working with, and which approach would you like to set up?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "164607cc-deb7-404d-8c60-825c41037ff7",
+      "created_at": "2026-10-18T01:01:28.799Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
