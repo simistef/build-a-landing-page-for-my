@@ -4,5 +4,18 @@
   "createdAt": "2026-10-18T00:59:46.062Z",
   "filename": "b9ed4ac8-e14a-4ab9-8628-67f114727033.json",
   "geminiStarted": false,
-  "messages": []
+  "messages": [
+    {
+      "id": "164607cc-deb7-404d-8c60-825c41037ff7",
+      "role": "user",
+      "content": "can i connect to my local database here?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-18T01:00:56.132Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
