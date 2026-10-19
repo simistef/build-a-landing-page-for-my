@@ -28,6 +28,18 @@
       "created_at": "2026-10-18T01:01:28.799Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "c930054c-43bc-4b82-b956-c407f479bdcc",
+      "role": "user",
+      "content": "i want to connect to my remote mariadb stored on my synology nas",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-19T03:36:02.868Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
