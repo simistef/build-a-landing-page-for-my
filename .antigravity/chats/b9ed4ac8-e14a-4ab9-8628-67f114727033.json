@@ -52,6 +52,18 @@
       "created_at": "2026-10-19T03:36:45.820Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "6cafb688-a996-4b47-8c41-382595eccb91",
+      "role": "user",
+      "content": "where are tokens used from ?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-06T04:59:58.945Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
